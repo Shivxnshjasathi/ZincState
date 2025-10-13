@@ -50,7 +50,7 @@ export default function Faq() {
           We use a modern, robust tech stack to build scalable and secure
           applications. Our expertise includes React, React Native, Flutter,
           Swift, Kotlin, and more. We select the ideal technology to meet your
-          project's specific needs.
+          project&apos;s specific needs.
         </div>
       ),
     },

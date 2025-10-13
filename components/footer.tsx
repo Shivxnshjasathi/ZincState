@@ -15,12 +15,10 @@ const Footer = () => {
   const socialLinks = [
     {
       name: "Twitter",
-      href: "#", // Placeholder for your Twitter link
       icon: TwitterLogoIcon,
     },
     {
       name: "GitHub",
-      href: "#", // Placeholder for your GitHub link
       icon: GitHubLogoIcon,
     },
   ];
@@ -35,40 +33,28 @@ const Footer = () => {
           transition={{ duration: 0.6 }}
           className="flex flex-col items-center text-center space-y-6"
         >
-          <a
-            href="/"
-            className="text-xl font-medium hover:opacity-80 transition-opacity"
-          >
+          <div className="text-xl font-medium">
             Zinc State
-          </a>
+          </div>
           <div className="flex space-x-3">
             {socialLinks.map((social) => (
               <Button
                 key={social.name}
-                asChild
                 variant="ghost"
                 size="icon"
-                className="h-8 w-8 rounded-full hover:bg-muted/50"
+                className="h-8 w-8 rounded-full hover:bg-muted/50 cursor-default"
               >
-                <a
-                  href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={social.name}
-                >
+                <div aria-label={social.name}>
                   <social.icon className="h-4 w-4" />
-                </a>
+                </div>
               </Button>
             ))}
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
-            <a
-              href="tel:6266656036"
-              className="flex items-center gap-1 hover:text-foreground transition-colors"
-            >
+            <div className="flex items-center gap-1">
               <MobileIcon />
               <span>+91 62666 56036</span>
-            </a>
+            </div>
             <span className="hidden sm:inline">•</span>
             <div className="flex items-center gap-1">
               <DrawingPinIcon />

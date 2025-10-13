@@ -72,7 +72,7 @@ export default function Pricing() {
         </h2>
         <p className="mx-auto max-w-xl text-muted-foreground text-center">
           Transparent packages designed to deliver value at every stage of your
-          business growth. Let's build something great together.
+          business growth. Let&apos;s build something great together.
         </p>
       </motion.div>
 
@@ -141,4 +141,3 @@ export default function Pricing() {
     </section>
   );
 }
-

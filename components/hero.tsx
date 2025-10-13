@@ -45,9 +45,9 @@ export default function Hero() {
               </DialogTrigger>
               <DialogContent>
                 <DialogHeader>
-                  <DialogTitle>Let's Build Your Vision</DialogTitle>
+                  <DialogTitle>Let&apos;s Build Your Vision</DialogTitle>
                   <DialogDescription>
-                    Have an idea? Tell us about it. We'll provide a clear plan
+                    Have an idea? Tell us about it. We&apos;ll provide a clear plan
                     and a no-obligation quote to bring it to life.
                   </DialogDescription>
                 </DialogHeader>
