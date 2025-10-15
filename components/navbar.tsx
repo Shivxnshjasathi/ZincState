@@ -188,7 +188,7 @@ export default function NavBar() {
                   className="pt-2 mt-2"
                 >
                   <Link
-                    href="https://x.com/gonzalochale"
+                    href="https://www.linkedin.com/in/zinc-state-5b69b138a/"
                     target="_blank"
                     className="flex items-center px-3 py-2 text-base font-medium text-foreground hover:bg-muted rounded-md transition-colors duration-200"
                     onClick={() => setIsMenuOpen(false)}
