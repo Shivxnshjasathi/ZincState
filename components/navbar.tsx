@@ -129,7 +129,7 @@ export default function NavBar() {
           </div>
           <div className="flex items-center space-x-4">
             <Button asChild className="hidden sm:flex" size="sm">
-              <Link href="https://x.com/gonzalochale" target="_blank">
+              <Link href="https://www.linkedin.com/in/zinc-state-5b69b138a/" target="_blank">
                 Connect on{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -301,7 +301,7 @@ export default function Partners() {
             }}
             transition={{
               ease: "linear",
-              duration: 40,
+              duration: 100,
               repeat: Infinity,
             }}
           >

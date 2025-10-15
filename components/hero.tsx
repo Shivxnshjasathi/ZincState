@@ -55,7 +55,7 @@ export default function Hero() {
                   <Button asChild size="sm">
                     {/* Make sure to replace this with your actual contact email or scheduling link */}
                     <a
-                      href="mailto:contact@zincstate.com"
+                      href="mailto:contact.zincstate@gmail.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
